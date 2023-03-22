@@ -5,7 +5,7 @@
  *
  * Description: This is a short if statement
  * Return: positive zero return
- */
+ *
 int main(void)
 {
 	char c;
@@ -22,3 +22,4 @@ printf("Size of a float: %lu.", (unsigned long)sizeof(f)"byte(s)\n");
 
 return (0);
 }
+*/
