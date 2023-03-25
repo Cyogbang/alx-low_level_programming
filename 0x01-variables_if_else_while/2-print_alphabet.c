@@ -10,8 +10,8 @@ int main(void)
 
 	int n = 'a';
 
-	while (n < 'z')
-	printf("%c", n++);
+	while (n <= 'z')
+	printf("%c", n++, \n);
 
 	return (0);
 }
