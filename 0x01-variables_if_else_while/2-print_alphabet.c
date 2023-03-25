@@ -10,7 +10,7 @@ int main(void)
 
 	int n = 'a';
 
-	if (n < 'z')
+	while (n < 'z')
 	printf("%c\n", n++);
 
 	return (0);
