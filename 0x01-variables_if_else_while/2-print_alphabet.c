@@ -8,9 +8,9 @@
 int main(void)
 {
 
-	int n = a;
+	int n = 'a';
 
-	if (n < z)
+	if (n < 'z')
 	printf("%d\n", n++);
 
 	return (0);
