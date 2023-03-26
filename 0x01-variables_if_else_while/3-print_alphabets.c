@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int n = 'a && A';
+	int n = 'a' && 'A';
 
-	while (n <= 'z && Z')
+	while (n <= 'z' && 'Z')
 		printf("%c", n++);
 		printf("\n");
 
