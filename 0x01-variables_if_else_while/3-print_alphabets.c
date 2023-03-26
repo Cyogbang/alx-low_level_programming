@@ -7,13 +7,15 @@
  */
 int main(void)
 {
-	int n = 'a' && 'A';
-
-	while (n <= 'z' && 'Z')
+	for (int n = 'a'; n <= 'z'; n++)
 	{
-		printf("%c", n++);
-		printf("\n");
+	printf("%c", n);
 	}
+	for (int b = 'A'; b <= 'Z'; b++)
+	{
+	printf("%c", b);
+	}
+	printf("\n");
 
 	return (0);
 }
