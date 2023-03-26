@@ -7,11 +7,14 @@
  */
 int main(void)
 {
-	for (int n = 'a'; n <= 'z'; n++)
+	int n = 'a';
+	int b = 'b';
+
+	for (n <= 'z'; n++)
 	{
 	printf("%c", n);
 	}
-	for (int b = 'A'; b <= 'Z'; b++)
+	for (b <= 'Z'; b++)
 	{
 	printf("%c", b);
 	}
