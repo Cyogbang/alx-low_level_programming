@@ -12,6 +12,7 @@ int main(void)
 
 	while (n <= 'z')
 	printf("%c", n++);
+	printf("\n");
 
 
 	return (0);
