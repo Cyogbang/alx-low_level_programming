@@ -13,6 +13,8 @@ int main(void)
 	while (n <= 'z')
 	printf("%c", n++);
 
+
 	return (0);
+
 }
 
