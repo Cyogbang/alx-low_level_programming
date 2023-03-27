@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
- * print_string - prints a string
  * print_string - prints a string
  * @s: the string to be printed
  *
@@ -11,7 +11,7 @@
 
 void print_string(char *s);
 
-	int main(void)
+int main(void)
 {
 	char s[] = "_putchar";
 

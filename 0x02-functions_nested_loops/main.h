@@ -1,34 +1,20 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
-#include "main.h"
 
-/**
- * main - Entry point
- * print_string - prints a string
- * print_string - prints a string
- * @s: the string to be printed
- *
- * Return: positive
- */
+int main(void);
+void pring_string(char *s);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
 
-void print_string(char *s);
-
-	int main(void)
-{
-	char s[] = "_putchar";
-
-	print_string(s);
-	putchar('\n');
-
-	return (0);
-}
-
-void print_string(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-{
-	putchar(s[i]);
-	i++;
-}
-}
+#endif /* Main_H */
