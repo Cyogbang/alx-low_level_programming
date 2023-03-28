@@ -12,7 +12,6 @@
 
 int _islower(int c)
 {
-	char c;
 
 putchar('=');
 scanChar(int & c);
