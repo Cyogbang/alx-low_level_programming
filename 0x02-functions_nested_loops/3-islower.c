@@ -14,7 +14,7 @@ int _islower(int c)
 {
 
 putchar('=');
-scanChar(int & c);
+scanf(int & c);
 
 if (isupper(c))
 {
