@@ -11,9 +11,9 @@
 
 int _islower(int c)
 {
-int c;
+int c = 'k';
 
-if (c == C)
+if (k == 'C')
 {
 	putchar('n' + 0);
 }
