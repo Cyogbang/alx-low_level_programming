@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -11,14 +12,18 @@
 
 int _islower(int c)
 {
+	char c;
 
-if (c == 'C')
+putchar('=');
+scanChar(int & c);
+
+if (isupper(c))
 {
-	putchar(r + '0');
+	putchar('0' + 0);
 }
 else
 {
-putchar(r + '1');
+putchar('0' + 1);
 }
 
 return (0);
