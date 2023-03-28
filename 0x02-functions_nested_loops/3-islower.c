@@ -14,11 +14,11 @@ int _islower(int c)
 
 if (c == 'C')
 {
-	putchar('n' + 0);
+	putchar(r + '0');
 }
 else
 {
-putchar('n' + 1);
+putchar(r + '1');
 }
 
 return (0);
