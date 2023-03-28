@@ -13,17 +13,11 @@
 int _islower(int c)
 {
 
-putchar('=');
-scanf('int');
-
-if (isupper(c))
+if (c >= 'a' && <= 'z')
 {
-	putchar('0' + 0);
+return (1);
 }
 else
 {
-putchar('0' + 1);
-}
-
 return (0);
 }
