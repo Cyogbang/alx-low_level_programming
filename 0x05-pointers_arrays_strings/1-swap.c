@@ -3,13 +3,18 @@
 
 /**
  * swap_int - swaps two variable value
- * @a: Var 1
- * @b: Var 2
+ * @temp - declared variable
+ * @a: pointer 1
+ * @b: pointer 2
  *
- * Return: Always '0'
+ * Return: Always void
  */
 
 void swap_int(int *a, int *b)
 {
-b = *a;
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
