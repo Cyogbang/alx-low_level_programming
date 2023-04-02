@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - list all the numeral numbers below 1024 that are 
+ * main - list all the numeral numbers below 1024 that are
  * multiples or 3 or 5
  *
  * Return: Always 0
